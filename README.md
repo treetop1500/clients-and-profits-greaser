@@ -18,3 +18,4 @@ Another annoying message you'd like to squash? Want to get one with your inner h
 
 ## To Do
  - Make string comparisons on alert messages lowercase to future proof any changes in case that may occur in updates.
+ - Track down the auto complete problem where job numbers on timesheet entries can double up if you type to fast.  This may have to do with the CSS fade animation on that control.
