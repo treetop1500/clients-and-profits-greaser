@@ -10,6 +10,9 @@ This userscript uses mutation observers to make some subtle interface changes to
 ## Installation
 To install this userscript you'll need to have a userscript plugin running in your browser such as Tampermonkey for Chrome. Then you can simply create a new userscript and copy/paste the contents of tamper.js into it.
 
+Or if your userscript allows you to install a script from a URL, use this one:
+`https://raw.githubusercontent.com/treetop1500/clients-and-profits-greaser/master/tamper.js`
+
 ## Configuration
 You'll need to configure the script to run on the correct domain.  For security purposes, I won't post the domain in this readme, but surely you can figure that out.  It's the URL you go to when you use C+P.  In Tampermonkey it will be in the Includes/Excludes section of the settings under "Original Matches".  The value will look like https://XXXXXXX.jobr.mobi/index.php
 
