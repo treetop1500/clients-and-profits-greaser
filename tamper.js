@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Clients and Profits Greaser
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
-// @description  try to take over the world!
+// @version      0.1.2
+// @description  Makes using the C+P web interface a bit more tolerable, thereby making the world a more wonderful place.
 // @author       You
 // @match        https://grayloon.jobr.mobi/index.php
 // @grant        none
@@ -14,6 +14,7 @@
     // Is it working?
     console.log('tampermonkey working');
 
+    // create a mutation observer object to check for changes in objects to handle
     var mutationObserver = new MutationObserver(function(mutations) {
         mutations.forEach(function(mutation) {
             if (mutation.target.id === 'main') {
