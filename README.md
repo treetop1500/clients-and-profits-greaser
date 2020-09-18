@@ -15,3 +15,6 @@ You'll need to configure the script to run on the correct domain.  For security 
 
 ## Contributing
 Another annoying message you'd like to squash? Want to get one with your inner hacker? If you'd like to help make improvements feel free to fork this project and send pull requests!
+
+## To Do
+ - Make string comparisons on alert messages lowercase to future proof any changes in case that may occur in updates.
