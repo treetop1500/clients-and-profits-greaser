@@ -34,6 +34,7 @@
         characterDataOldValue: true
     });
 
+    // crush those annoying alert messages about budget hours and other garbage
     function handleAlertWindows(alertwin) {
         // Array of strings or partial strings of alert messages to be matched.
         const annoyingMessages = [
