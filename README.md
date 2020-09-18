@@ -13,4 +13,5 @@ To install this userscript you'll need to have a userscript plugin running in yo
 ## Configuration
 You'll need to configure the script to run on the correct domain.  For security purposes, I won't post the domain in this readme, but surely you can figure that out.  It's the URL you go to when you use C+P.  In Tampermonkey it will be in the Includes/Excludes section of the settings under "Original Matches".  The value will look like https://XXXXXXX.jobr.mobi/index.php
 
-
+## Contributing
+Another annoying message you'd like to squash? Want to get one with your inner hacker? If you'd like to help make improvements feel free to fork this project and send pull requests!
