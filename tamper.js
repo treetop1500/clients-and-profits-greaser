@@ -39,7 +39,8 @@
     function handleAlertWindows(alertwin) {
         // Array of strings or partial strings of alert messages to be matched.
         const annoyingMessages = [
-            'has no budget'
+            'has no budget',
+            'has no estimated hours'
         ];
 
         let msg = alertwin.textContent;
