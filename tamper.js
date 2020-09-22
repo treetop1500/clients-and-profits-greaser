@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Clients and Profits Greaser
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  Makes using the C+P web interface a bit more tolerable, thereby making the world a more wonderful place.
 // @author       You
 // @match        https://grayloon.jobr.mobi/index.php
